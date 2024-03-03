@@ -1,6 +1,8 @@
+import FeatureProperty from "./components/FeatureProperty"
 import Home from "./components/Home"
 import Navbar from "./components/Navbar"
-import Search from "./components/Search"
+import PopulerSearch from "./components/PopulerPlace"
+import AboutUs from "./components/AboutUs"
 
 function App() {
 
@@ -9,7 +11,9 @@ function App() {
       <div>
         <Navbar />
         <Home />
-        <Search />
+        <FeatureProperty />
+        <AboutUs />
+        <PopulerSearch />
       </div>
     </>
   )

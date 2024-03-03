@@ -12,7 +12,7 @@ export const navLink = [
     name: "About Us",
   },
   {
-    id: "constumer",
+    id: "costumer",
     name: "Costumer",
   },
   {
